@@ -1,2 +1,1 @@
-web: gunicorn firebaseProject.wsgi
-heroku login
+web: python manage.py runserver 0.0.0.0:$PORT
