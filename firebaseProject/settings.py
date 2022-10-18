@@ -28,7 +28,7 @@ SECRET_KEY = "django-insecure-c)=*6t+6@(#u*ln*ol0zt)+*1#)ve3!ov6ju--dr+jc^=n+b5f
 DEBUG = True
 
 ALLOWED_HOSTS = []
-django_heroku.settings(locals())
+
 
 # Application definition
 
@@ -124,3 +124,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, "collected_static/")
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+django_heroku.settings(locals())
