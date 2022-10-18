@@ -1,0 +1,7 @@
+.*
+*.iml
+*.py[cod]
+**/__pycache__
+
+# Local files
+/assets/staticfiles/
